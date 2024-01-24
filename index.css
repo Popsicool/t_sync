@@ -8,16 +8,17 @@ a, a:active, a:visited{
 }
 body{
     background-color: #ffffff;
+    padding-top: 2%;
 }
 nav{
-    width: 83%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     background-color: #f2f4f7;
     border: 1px solid #D0D5DD;
     border-radius: 100px;
     display: flex;
-    padding: 1%;
+    padding: 1% 2%;
     justify-content: space-between;
 }
 .nav-left{
@@ -33,6 +34,11 @@ nav{
     justify-content: space-between;
     width: 35%;
 }
+
+.n-t-a{
+    display: flex;
+    align-items: center;
+}
 .nav-text{
     font-family: Inter;
     font-size: 1.125rem;
@@ -41,6 +47,8 @@ nav{
     letter-spacing: 0em;
     text-align: left;
     color: #667085;
+    padding-right: 3%;
+    cursor: pointer;
 }
 
 .nav-right{
@@ -53,7 +61,7 @@ nav{
     border: 1px solid #98A2B3;
     background-color: #FFFFFF;
     font-family: Inter;
-    font-size: 1.125rem;
+    font-size: .9rem;
     font-weight: 600;
     line-height: 1.55rem;
     letter-spacing: 0em;
@@ -70,13 +78,15 @@ nav{
 .hero{
     display: grid;
     place-items: center;
+
 }
 .hero-inner{
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    padding: 10% 0;
 }
 .hero-pic-row{
     display: flex;
@@ -88,6 +98,7 @@ nav{
     font-size: 4rem;
     font-weight: 600;
     line-height: 4.5rem;
+    padding-bottom: 3%;
     letter-spacing: -0.02em;
     text-align: left;
     color: #1D2939;
@@ -100,7 +111,7 @@ nav{
     letter-spacing: 0em;
     text-align: left;
     color: #667085;
-    width: 85%;
+    padding-bottom: 5%;
 }
 .hero-left{
     width:55%
@@ -110,6 +121,51 @@ nav{
     border: 1px solid #B2DDFF;
     background-color: #eff8ff;
     border-radius: 10px;
+    box-shadow: 0px 32px 64px -12px #10182824;
+}
+.svgrow{
+    display: flex;
+    justify-content: space-between;
+    width: 41%;
+    padding-top: 7%;
+}
+.sugri{
+    display: flex;
+    justify-content: space-between;
+}
+.s-start{
+    height: 20px;
+    width: 20px;
+}
+.stars{
+    padding: 5% 0;
+}
+.fp{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: right;
+    padding-left: 3%;
+    color: #344054;
+}
+.rev-num{
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #475467;
+}
+.avg-rap{
+    width: 47%;
+    height: 40px;
+}
+.avg-rap img, .s-start img{
+    width: 100%;
+    height: 100%;
 }
 .hero-pics-wrap{
     width: 30%;
@@ -124,6 +180,7 @@ nav{
     justify-content: space-between;
     width: 60%;
     margin-left: auto;
+    padding: 3% 0;
     margin-right: auto;
 }
 .small-icon-wrap{
@@ -192,13 +249,29 @@ nav{
     letter-spacing: 0em;
     text-align: center;
     color: #475467;
+    padding: 2% 0;
 }
 .sponsors-row{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
+    padding: 2% 0;
     margin-right: auto;
+}
+.ychoose{
+    padding: 8%;
+}
+.ycr{
+    width: 50%;
+    height: 500px;
+}
+.ycr img{
+    width: 100%;
+    height: 100%;
+}
+.sname{
+    height: 30px;
 }
 .tca{
     font-family: Inter;
@@ -206,6 +279,7 @@ nav{
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0em;
+    padding-bottom: 1%;
     text-align: left;
     color: #175CD3;
 }
@@ -216,40 +290,48 @@ nav{
     line-height: 60px;
     letter-spacing: -0.02em;
     text-align: left;
+    padding: 1% 0;
     color: #1D2939;
 }
 .iawo{
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
     color: #667085;
+    padding: 0 0 10% 0;
 }
 .yclr{
     display: flex;
     justify-content: space-between;
 }
 .ycl{
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .piccsrow, .shopify, .arrws{
     display: flex;
 }
+.arrws{
+    width: 25%;
+    justify-content: space-between;
+}
 .ccv{
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 32px;
+    padding-bottom: 2%;
     letter-spacing: 0em;
     text-align: left;
     color: #101828;
 }
 .ccv2{
     font-family: Inter;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0em;
@@ -273,6 +355,18 @@ nav{
 .sthompsonrow{
     display: flex;
     justify-content: space-between;
+    padding: 10% 0;
+}
+.thomp-pic{
+    width:10%;
+}
+.thomp-pic img{
+    width: 100%;
+}
+.thom-deatils{
+    width: 65%;
+    padding-left: 2%;
+    text-align: left;
 }
 .nm{
     font-family: Inter;
@@ -294,6 +388,8 @@ nav{
 }
 .supportrow{
     display: flex;
+    padding: 5%;
+    padding-right: 10%;
 }
 .sup{
     font-family: Inter;
@@ -306,6 +402,7 @@ nav{
 }
 .faq{
     font-family: Inter;
+    padding: 2% 0;
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
@@ -370,9 +467,12 @@ nav{
 .tck-row{
     display: flex;
     padding-top: 1%;
+    padding-left: 2%;
+    width: 50%;
+    padding-bottom: 2%;
 }
 .thirty{
-    padding-left: 1%;
+    padding-left: 3%;
     font-family: Inter;
     font-size: 24px;
     font-weight: 400;
@@ -381,6 +481,7 @@ nav{
     text-align: left;
     color: #475467;
 }
+
 .r2c{
     font-family: Inter;
     font-size: 48px;
@@ -388,37 +489,51 @@ nav{
     line-height: 60px;
     letter-spacing: -0.02em;
     text-align: left;
+    padding-bottom: 2%;
     color: #101828;
+}
+.tickbtns{
+    width: 50%;
+    justify-content: space-between;
+    padding-top: 2%;
 }
 .sales{
     background-color: #FFFFFF;
     font-family: Inter;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
+    padding: 2%;
     text-align: center;
     color: #101828;
     border: 1px solid #98A2B3;
-    border-radius: 15px;
-    /* width: 40%; */
+    border-radius: 25px;
+    width: 40%;
 }
 .freetrial{
     background-color: #175CD3;
     border: none;
     color: #FFFFFF;
     font-family: Inter;
-    font-size: 16px;
+    padding: 2%;
+    font-size: 12px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+    border-radius: 25px;
+    width: 55%;
 }
 .readyrow{
     display: flex;
+    padding: 5% 0 5% 5%;
 }
 .readyright, .readyleft{
     width: 50%;
+}
+.readyleft{
+    padding-top: 4%;
 }
 .readyright img{
     width: 100%;
@@ -427,6 +542,7 @@ nav{
 .footer-top{
     display: flex;
     justify-content: space-between;
+    padding: 5%;
 }
 .effort{
     font-family: Inter;
@@ -442,6 +558,7 @@ nav{
     font-size: 16px;
     font-weight: 600;
     line-height: 28px;
+    padding-bottom: 5%;
     letter-spacing: 0em;
     text-align: left;
     color: #475467;
@@ -452,6 +569,7 @@ nav{
     font-weight: 600;
     line-height: 28px;
     letter-spacing: 0em;
+    padding-bottom: 5%;
     text-align: left;
     color: #475467;
 }
@@ -470,6 +588,7 @@ nav{
 .store-wrap{
     width:135px;
     height: 40px;
+    padding: 5% 0;
 }
 .store-wrap img{
     width: 100%;
@@ -502,4 +621,34 @@ nav{
 .icn-w img{
     width:100%;
     height: 100%;
+}
+.ycboxiwrap{
+    border-radius: 50%;
+    background-color: #f9fafb;
+    border: 1px solid #EAECF0;
+    width: 20px;
+    height: 20px;
+    padding: 5%;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+/* .shpwrap{
+
+    height: 15px;
+}
+.shpwrap img{
+    height: 100%;
+} */
+
+.shopright{
+    width: 50%;
+    height: 90%;
+    padding: 2%;
+}
+.shopright img{
+    width: 90%;
+    height: 90%;
+}
+.fimg-wrap{
+    padding-bottom: 5%;
 }
