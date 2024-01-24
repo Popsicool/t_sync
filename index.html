@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClearLink.</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="./img/site.webmanifest">
 </head>
 <body>
     <nav>
         <div class="nav-left">
-            <img src="./img/frm.png"  alt="ClearLink logo">
+            <a href="" class="log-lnk">
+                <div class="log-wrap">
+                    <img src="./img/logo.png"  alt="ClearLink logo">
+                </div>
+                <p class="xl">ClearLink.</p>
+            </a>
         </div>
         <div class="nav-middle">
             <div class="n-t-a"><p class="nav-text">Products</p>  <img src="./img/cdown.png" alt="dowwn"></a></div>
             <div class="n-t-a"><p class="nav-text">Solutions</p>  <img src="./img/cdown.png" alt="dowwn"></a></div>
             <div class="n-t-a"><p class="nav-text">Resources</p>  <img src="./img/cdown.png" alt="dowwn"></a></div>
-            <div class="n-t-a"><p class="nav-text">Pricing</p>  <img src="./img/cdown.png" alt="dowwn"></a></div>
+            <div class="n-t-a"><p class="nav-text">Pricing</p></a></div>
         </div>
         <div class="nav-right">
             <button class="nav-btn-1">
@@ -121,13 +130,23 @@
                 <img src="./img/drop.png" alt="dropbox" class="sname">
                 <img src="./img/inter.png" alt="intercom" class="sname">
                 <img src="./img/mav.png" alt="marvel" class="sname">
-                <img src="./img/autosvg.png" alt="automatic" class="sname">
+                <img src="./img/autosvg.png" alt="automatic" class="sname aut">
             </div>
         </div>
-        <div class="ychoose">
-            <p class="tca">The ClearLink Advantage</p>
-            <p class="ibere">Why choose ClearLink?</p>
-            <p class="iawo">In a world where connection is everything, ClearLink takes the lead. Our<br>cutting-edge video conferencing app offers:</p>
+        <div class="ychoose reveal">
+            <div class="ycup">
+                <div class="ycupleft">
+                    <p class="tca">The ClearLink Advantage</p>
+                    <p class="ibere">Why choose ClearLink?</p>
+                    <p class="iawo">In a world where connection is everything, ClearLink takes the lead. Our<br>cutting-edge video conferencing app offers:</p>
+                </div>
+                <div class="ycupright1">
+                    
+                </div>
+                <div class="ycupright">
+                    <img src="./img/handdraw.png" alt="handdrawn" class="hdraw">
+                </div>
+            </div>
             <div class="yclr">
                 <div class="ycl">
                     <div class="ycbox">
@@ -202,49 +221,49 @@
                 <img src="./img/gpics.png" alt="g-pic">
             </div>
         </div>
-        <div class="supportrow">
+        <div class="supportrow reveal">
             <div class="supportleft">
                 <p class="sup">Support</p>
                 <p class="faq">FAQs</p>
-                <p class="evn">Everything you need to know about the product<br>and billing. Can't find the answer you're looking<br>for? Please <u>chat to our friendly team</u>.</p>
+                <p class="evn">Everything you need to know about the product<br>and billing. Can't find the answer you're looking<br>for? Please <a href="#"><u>chat to our friendly team</u></a>.</p>
             </div>
             <div class="supportright">
-                <div class="suprow">
+                <div class="suprow2" onclick="toggleClassAndDisplay(this)">
                     <div class="leff">
                         <p class="part">How many participants can join a ClearLink video conference?</p>
                         <p class="part2">ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
                     </div>
-                    <img src="./img/exp.png" alt="-" class="col-ic">
+                    <img src="./img/col.png" alt="-" class="col-ic">
                 </div>
-                <div class="suprow2">
+                <div class="suprow2" onclick="toggleClassAndDisplay(this)">
                     <div class="leff">
                         <p class="part">Can I use ClearLink on multiple devices?</p>
-                        <p class="part2 part3">ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
+                        <p class="part2">ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
                     </div>
                     <img src="./img/col.png" alt="-" class="col-ic">
                 </div>
-                <div class="suprow2">
+                <div class="suprow2" onclick="toggleClassAndDisplay(this)">
                     <div class="leff">
                         <p class="part">Is ClearLink compatible with other video conferencing platforms?</p>
                         <p class="part2 part3">ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
                     </div>
                     <img src="./img/col.png" alt="-" class="col-ic">
                 </div>
-                <div class="suprow2">
+                <div class="suprow2" onclick="toggleClassAndDisplay(this)">
                     <div class="leff">
                         <p class="part">How does ClearLink ensure the security of my video conferences?</p>
                         <p class="part2 part3">ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
                     </div>
                     <img src="./img/col.png" alt="-" class="col-ic">
                 </div>
-                <div class="suprow2">
+                <div class="suprow2" onclick="toggleClassAndDisplay(this)">
                     <div class="leff">
                         <p class="part">Do I need to download any software to use ClearLink?</p>
                         <p class="part2 part3">ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
                     </div>
                     <img src="./img/col.png" alt="-" class="col-ic">
                 </div>
-                <div class="suprow2">
+                <div class="suprow2" onclick="toggleClassAndDisplay(this)">
                     <div class="leff">
                         <p class="part">What kind of customer support does ClearLink provide?</p>
                         <p class="part2 part3">ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.</p>
@@ -285,7 +304,7 @@
         </div>
     </main>
     <footer>
-        <div class="footer-top">
+        <div class="footer-top reveal">
             <div class="c1">
                 <div class="fimg-wrap">
                     <img src="./img/frm.png" alt="logo">
@@ -360,6 +379,7 @@
         </div>
 
     </footer>
-    
+
+    <script src="./index.js"></script>
 </body>
 </html>

@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+button{
+    cursor: pointer;
+}
 a, a:active, a:visited{
     text-decoration: none;
     color: #475467;
@@ -9,6 +12,21 @@ a, a:active, a:visited{
 body{
     background-color: #ffffff;
     padding-top: 2%;
+}
+.log-lnk{
+    display: flex;
+}
+.xl{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #101828;
+    align-self: center;
+    padding-left: 5%;
+
 }
 nav{
     width: 85%;
@@ -32,7 +50,8 @@ nav{
 .nav-middle{
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: 40%;
+    padding-left: 10%;
 }
 
 .n-t-a{
@@ -41,7 +60,7 @@ nav{
 }
 .nav-text{
     font-family: Inter;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 1.55rem;
     letter-spacing: 0em;
@@ -240,7 +259,7 @@ nav{
     width: 20px;
 }
 .join-row{
-    width: 85%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -265,6 +284,7 @@ nav{
 }
 .ychoose{
     padding: 8%;
+    padding-left: 12%;
 }
 .ycr{
     width: 50%;
@@ -355,6 +375,7 @@ nav{
     background-color: #F9FAFB;
     justify-content: space-around;
     padding: 5%;
+    padding-left: 12%;
 }
 .sthompsonrow{
     display: flex;
@@ -394,6 +415,7 @@ nav{
     display: flex;
     padding: 5%;
     padding-right: 10%;
+    padding-left: 12%;
 }
 .sup{
     font-family: Inter;
@@ -439,19 +461,26 @@ nav{
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+    padding-top: 2%;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+    display: none;
+
     color: #475467;
 }
-.part3{
-    display: none;
+.part2.active {
+    display: block;
+}
+.suprow, .suprow2 {
+    transition: transform 2s ease;
 }
 .suprow{
     display: flex;
     justify-content: space-between;
     background-color: #f9fafb;
     border: 1px solid #EAECF0;
+    cursor: pointer;
     border-radius: 1rem;
     padding: 3%;
 }
@@ -459,6 +488,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 3%;
+    cursor: pointer;
     border-bottom: 1px solid #f4f5f7;
 }
 .leff{
@@ -531,7 +561,7 @@ nav{
 }
 .readyrow{
     display: flex;
-    padding: 5% 0 5% 5%;
+    padding: 5% 0 5% 10%;
 }
 .readyright, .readyleft{
     width: 50%;
@@ -547,6 +577,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 5%;
+    padding-left: 10%;
 }
 .effort{
     font-family: Inter;
@@ -604,7 +635,11 @@ nav{
 }
 .footer-bottom{
     background-color: #f9fafb;
-    padding: 5%;
+    padding: 3%;
+    padding-left: 10%;
+}
+.arr-wra{
+    cursor: pointer;
 }
 .fbotleft{
     font-family: Inter;
@@ -655,4 +690,35 @@ nav{
 }
 .fimg-wrap{
     padding-bottom: 5%;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  .reveal.showAnim{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  .ycup{
+    display: flex;
+  }
+  .ycupleft{
+    width: 60%;
+  }
+.ycupright{
+    position: relative;
+    padding-left: 7%;
+}
+.hdraw{
+    position: absolute;
+    top: 30px;
+}
+.aut{
+    width: 250px;
+    height: 15px;
+    align-self: center;
 }
